@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Full Stack Developer</title>
+    <link rel="stylesheet" href="portfolio1css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1 class="fade-in">Hello, I'm Kiruthika</h1>
+        <p class="fade-in">Full Stack Developer | Innovator | Creator</p>
+        <button onclick="scrollToSection('projects')">Explore My Work</button>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A highly skilled, competent and delightful individual is seeking an opportunity to establish a 
+career in IT sector. Certified in Masters of Computer background at Bharathiar University. 
+Passionate about implementing and launching new projects. Ability to translate business 
+requirements into technical solutions and has strong ability to handle complex task also.
+</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database</h3>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p><b>Student Intern, Nitroware Technologies, December 2023 – May 2024
+Coimbatore,India</b> <br>
+• Here, I develop new features using HTML, CSS and Python.<br>
+• Developed and tested user interface using HTML,CSS and JavaScript.<br>
+• Created documentation for software development processes.<br>
+• Wrote SQL queries to access data from databases.<br>
+• Resolved conflicts between different components of the system architecture.<br>
+• Implemented bug fixes to improve application performance.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p><b>Student Intern, Mazo Solution, August 2022-October 2022
+Coimbatore,India</b> <br> <b> Project: Automated Reporting </b> <br>
+• Worked in Python, Machine Learning and analytical tools like PowerBI and Tableau.<br>
+• Performed exploratory data analysis on large datasets to identify patterns and trends .<br>
+• Analyzed customer behavior using predictive analytical techniques such as regression, 
+clustering, and decision tree.<br>
+• Created visualization of data with Tableau and PowerBI .<br>
+• Built Machine Learning models for classification and regression problems.<br>
+• Documented data engineering workflow in Jupyter notebook for reproducibility 
+purposes</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input class="txt1" type="text" placeholder="Your Name" required> <br><br><br>
+            <input class="txt1" type="email" placeholder="Your Email" required> <br><br><br>
+            <textarea placeholder="Your Message" required class="txt1"></textarea> <br><br><br>
+            <button class="bt1" type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="portfolio1js.js"></script>
+</body>
+</html>
